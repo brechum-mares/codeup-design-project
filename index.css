@@ -21,8 +21,8 @@
 .button {border-radius: 50%;}
 
 
-@media screen and (max-width:768px) {
 
+@media screen and (max-width:768px) {
     p.button {
         background-color: #04AA6D;
         /*border: none;*/
@@ -38,5 +38,4 @@
     .button {
         border-radius: 50%;
     }
-
 }
