@@ -39,4 +39,8 @@
         border-radius: 50%;
 
     }
+    .main-logo {
+        height: 105px;
+        width: 105px;
+    }
 }
