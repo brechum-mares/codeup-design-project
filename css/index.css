@@ -21,7 +21,8 @@
 /*.button {border-radius: 50%;}*/
 
 
-
+/*Notes: Move nav bar from top of page to proper location*/
+/*refer back to top-container class*/
 @media screen and (max-width:768px) {
     body{
         background-color: #F0F0F0;
@@ -29,6 +30,27 @@
         padding: 0;
         margin: 0;
         width: 100%;
+    }
+
+    /*.top-container{*/
+    /*    box-sizing: border-box;*/
+    /*    height:50px;*/
+    /*    width:100%;*/
+    /*    background-color: #F0F0F0;*/
+    /*}*/
+    .nav-bar{
+        width: 100%;
+        height: 60px;
+        background-color: white;
+    }
+    .nav-link a{
+        color: black;
+        padding: 0.5em;
+    }
+
+
+    .nav-items{
+
     }
     section.header{
         font-family: 'Abel' , sans-serif;
@@ -51,6 +73,7 @@
         /*font-size: 6px;*/
         /*margin: 4px 2px;*/
     }
+
     .main-logo {
         height: 105px;
         width: 105px;
@@ -58,4 +81,6 @@
     h2.text-logo {
         font-family: 'Abel', sans-serif;
     }
+
+
 }
